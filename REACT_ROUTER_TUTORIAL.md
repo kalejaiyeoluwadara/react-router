@@ -1,8 +1,8 @@
-# React Router Tutorial 🚀
+# React Router Tutorial 
 
 A comprehensive, hands-on tutorial demonstrating React Router concepts with practical examples.
 
-## 📚 What You'll Learn
+## What You'll Learn
 
 This tutorial covers all essential React Router concepts:
 
@@ -12,7 +12,7 @@ This tutorial covers all essential React Router concepts:
 4. **404 Handling** - Catch-all routes for not found pages
 5. **Active Links** - Highlight current page in navigation
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -32,7 +32,7 @@ src/
     └── pages.css          # Shared styles
 ```
 
-## 🎯 Key Concepts Explained
+## Key Concepts Explained
 
 ### 1. Setting Up React Router
 
@@ -139,7 +139,7 @@ Use `*` as the path to catch all unmatched routes:
 
 **Important:** Place this route last in your route definitions!
 
-## 🎨 Pages in This Tutorial
+## Pages in This Tutorial
 
 ### Basic Pages
 - **Home (`/`)** - Introduction and overview
@@ -156,7 +156,7 @@ Use `*` as the path to catch all unmatched routes:
 ### Error Page
 - **NotFound (`*`)** - 404 page for invalid routes
 
-## 🔍 Testing the Tutorial
+## Testing the Tutorial
 
 1. **Start the development server:**
    ```bash
@@ -171,7 +171,7 @@ Use `*` as the path to catch all unmatched routes:
    - Try accessing `/invalid-route` (404 page)
    - Use browser back/forward buttons
 
-## 💡 Key Differences
+## Key Differences
 
 ### Link vs. Button with onClick
 
@@ -209,7 +209,7 @@ const location = useLocation();
 console.log(location.pathname); // "/user/5"
 ```
 
-## 📝 Common Patterns
+## Common Patterns
 
 ### Protected Routes
 ```jsx
@@ -235,7 +235,7 @@ console.log(location.pathname); // "/user/5"
 const { category, postId } = useParams();
 ```
 
-## 🚨 Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 1. **Forgetting BrowserRouter:** Routes won't work without it wrapping your app
 2. **Using anchor tags (`<a>`):** These cause full page reloads. Use `<Link>` instead
@@ -243,24 +243,11 @@ const { category, postId } = useParams();
 4. **Incorrect parameter syntax:** Use `:id` not `{id}` or `$id`
 5. **Not using `end` prop:** NavLink for "/" will always be active without `end` prop
 
-## 🎓 Next Steps
 
-After mastering this tutorial, explore:
-- Nested Routes and Outlet
-- Route Loaders and Actions (React Router 6.4+)
-- Protected Routes and Authentication
-- Route-based Code Splitting
-- Search Parameters (`useSearchParams`)
-- Hash Router vs. Browser Router
-- Memory Router for testing
 
-## 📚 Resources
+## Resources
 
 - [React Router Official Docs](https://reactrouter.com/)
 - [React Router Tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
 - [React Router Examples](https://github.com/remix-run/react-router/tree/dev/examples)
-
-## 🎉 Happy Learning!
-
-This tutorial provides a solid foundation for building SPAs (Single Page Applications) with React Router. Experiment with the code, break things, and learn by doing!
 

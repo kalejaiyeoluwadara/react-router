@@ -5,7 +5,7 @@ import './pages.css';
 function About() {
   return (
     <div className="page-container">
-      <h1>📘 About React Router</h1>
+      <h1>About React Router</h1>
       
       <div className="info-box">
         <h2>What is React Router?</h2>

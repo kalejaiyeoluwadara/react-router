@@ -5,7 +5,7 @@ import './pages.css';
 function Home() {
   return (
     <div className="page-container">
-      <h1>🏠 Welcome to React Router Tutorial!</h1>
+      <h1>Welcome to React Router Tutorial!</h1>
       <p className="intro-text">
         This is a simple demonstration of React Router. React Router enables "client-side routing" 
         which allows your app to update the URL from a link click without making another request for another document from the server.

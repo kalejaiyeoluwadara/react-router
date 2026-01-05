@@ -15,7 +15,7 @@ function Products() {
 
   return (
     <div className="page-container">
-      <h1>🛍️ Products Catalog</h1>
+      <h1>Products Catalog</h1>
       <p className="intro-text">
         Browse our products. Click on any product to see its details with a dynamic route!
       </p>
@@ -27,7 +27,7 @@ function Products() {
             key={product.id} 
             className="product-card"
           >
-            <div className="product-icon">📦</div>
+            <div className="product-icon"></div>
             <h3>{product.name}</h3>
             <p className="product-category">{product.category}</p>
             <p className="product-price">{product.price}</p>
@@ -37,7 +37,7 @@ function Products() {
       </div>
 
       <div className="info-box" style={{ marginTop: '2rem' }}>
-        <h3>💡 Multiple Dynamic Routes:</h3>
+        <h3>Multiple Dynamic Routes:</h3>
         <p>
           This app demonstrates multiple dynamic routes:
         </p>

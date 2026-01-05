@@ -25,7 +25,7 @@ function UserProfile() {
     return (
       <div className="page-container">
         <div className="error-box">
-          <h1>❌ User Not Found</h1>
+          <h1>User Not Found</h1>
           <p>No user found with ID: {id}</p>
           <Link to="/users" className="nav-button">Back to Users List</Link>
         </div>
@@ -54,7 +54,7 @@ function UserProfile() {
       </div>
 
       <div className="info-box">
-        <h3>🔍 How This Works:</h3>
+          <h3>How This Works:</h3>
         <p>This component uses the <code>useParams()</code> hook to get the user ID from the URL:</p>
         <pre>
 {`const { id } = useParams();

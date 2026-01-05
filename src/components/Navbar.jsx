@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          🚀 React Router Tutorial
+          React Router Tutorial
         </Link>
         
         <ul className="navbar-menu">

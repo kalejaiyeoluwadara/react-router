@@ -14,7 +14,7 @@ function Users() {
 
   return (
     <div className="page-container">
-      <h1>👥 Users List</h1>
+      <h1>Users List</h1>
       <p className="intro-text">
         Click on any user to view their profile. Notice how the URL changes to include the user ID!
       </p>

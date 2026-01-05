@@ -44,7 +44,7 @@ h3 {
 
 /* Info Box */
 .info-box {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: black;
   color: white;
   padding: 1.5rem;
   border-radius: 12px;
@@ -102,7 +102,7 @@ h3 {
 .nav-button {
   display: inline-block;
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: black;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -120,7 +120,7 @@ h3 {
 }
 
 .nav-button.secondary {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: black;
 }
 
 .nav-button.secondary:hover {
@@ -173,7 +173,7 @@ h3 {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: black;
   color: white;
   display: flex;
   align-items: center;
@@ -211,7 +211,7 @@ h3 {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: black;
   color: white;
   display: flex;
   align-items: center;

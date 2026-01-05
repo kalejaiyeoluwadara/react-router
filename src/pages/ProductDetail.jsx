@@ -58,7 +58,7 @@ function ProductDetail() {
     return (
       <div className="page-container">
         <div className="error-box">
-          <h1>❌ Product Not Found</h1>
+          <h1>Product Not Found</h1>
           <p>No product found with ID: {id}</p>
           <Link to="/products" className="nav-button">Back to Products</Link>
         </div>
